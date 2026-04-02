@@ -1,0 +1,99 @@
+#############################
+# Python
+#############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Unit test / coverage / profiling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# pyenv
+.python-version
+
+#############################
+# Logs / runtime artifacts
+#############################
+*.log
+logs/
+
+*.pid
+*.pid.lock
+
+#############################
+# OS / editor
+#############################
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.iml
+
+#############################
+# Project-specific (safe defaults)
+#############################
+# Local environment variables / secrets
+.env
+.env.*
+
+# Local caches / datasets / outputs (adjust if you want to commit some outputs)
+data/
+datasets/
+output/
+outputs/
+results/
+runs/
+tmp/
+temp/
+
+# Model / binary artifacts (often large)
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+#############################
+# Optional: ignore OS-specific scripts output
+#############################
+*.bat~
+*.sh~
+
+# Submodules
+Submodules/r3kit/
